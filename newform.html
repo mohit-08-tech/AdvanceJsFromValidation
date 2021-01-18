@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" />
+<link rel="stylesheet" type="text/css" href="formcss.css">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+	<title>Form Validation</title>
+</head>
+<body>
+	<div class="mycontainer">
+		<div class="myheader">
+			<h2>Registration Form</h2>
+		</div>
+		<form class="form" id="form">
+			<div class="myform-control">
+				<label class="font-weight-bold font-italic">Username</label>
+				<input type="text" name="" id="username" placeholder="Enter your full name" autocomplete="off">
+				<i class="far fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small> </small>
+			</div>
+			<div class="myform-control">
+				<label class="font-weight-bold font-italic">Email</label>
+				<input type="Email" name="" id="email" placeholder="Enter your email id" autocomplete="off">
+				<i class="far fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small> </small>
+			</div>
+			<div class="myform-control">
+				<label class="font-weight-bold font-italic">Mobile No</label>
+				<input type="number" name="" id="mobileno" placeholder="Enter your 10 digit mobile" autocomplete="off">
+				<i class="far fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small> </small>
+			</div>
+
+
+			<div class="myform-control">
+				<label class="font-weight-bold font-italic">Password</label>
+				<input type="password" name="" id="password" placeholder="Enter your password" autocomplete="off">
+				<i class="far fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small> </small>
+			</div>
+
+			<div class="myform-control">
+				<label class="font-weight-bold font-italic">Confirm Password</label>
+				<input type="text" name="" id="confirmpass" placeholder="Confirm your password" autocomplete="off">
+				<i class="far fa-check-circle"></i>
+				<i class="fas fa-exclamation-circle"></i>
+				<small> </small>
+			</div>	
+			<input type="submit" value="Submit" class="btn" name="">		
+		</form>
+
+	</div>
+	<script type="text/javascript" src="newformvalidate.js"></script>
+</body>
+</html>
